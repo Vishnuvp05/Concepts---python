@@ -11,8 +11,9 @@ class Solution:
         #for taking all values use for loop
         for num in nums:
             #if the data is not in uniique_numbers append the data
-            if num not in unique_numbers:
-                unique_numbers.append(num)
+            if num in unique_numbers:
+                return True
+            unique_numbers.append(num)
             #else return the num
-            else:
-                return num
+            
+        return False
