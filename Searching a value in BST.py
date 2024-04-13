@@ -3,6 +3,11 @@ class TreeNode:
         self.data=data
         self.left=None
         self.right=None
+#start the root
+#if this is the value we are looking for returns the value
+#if the value is higher continues on right 
+#if the value is lesser continues on left 
+#if the value doenot found return None
 
 def serach(node,target):
     if node is None:
