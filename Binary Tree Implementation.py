@@ -11,7 +11,6 @@ nodeC=Node('C')
 nodeD=Node('D')
 nodeE=Node('E')
 nodeF=Node('F')
-nodeE=Node('E')
 nodeG=Node('G')
 
 
