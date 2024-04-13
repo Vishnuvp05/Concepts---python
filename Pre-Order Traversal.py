@@ -6,7 +6,7 @@ class Node:
 
 #It is a type of Depth-First-Search where root node is visited and recursive traversal for left subtree and right subtree is done
 #root node is visited before recursive left subtree and right subtree hence it is called pre order 
-
+#it is mainly used for creating a copy of tree
 
 def preordertraversal(node):
     if node is None:
