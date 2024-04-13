@@ -3,7 +3,12 @@ class TreeNode:
         self.data=data
         self.left=None
         self.right=None
-
+#start at root node
+#compare each node is value lower? go left 
+#is value higher ? go right
+#continue to compare nodes with the new value until there is no right or left to compare with . That is where the new node is inserted 
+#inserting nodes as described above means that an inserted node will always become a new leaf node 
+#all nodes in BST are unique so in case we find the same value as the one we want to insert we do nothing 
 
 def insert(node,data):
     if node is None:
